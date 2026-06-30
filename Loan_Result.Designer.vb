@@ -39,8 +39,6 @@ Partial Class Loan_Result
         Me.lblinterest2 = New System.Windows.Forms.Label()
         Me.lblTotalPayable2 = New System.Windows.Forms.Label()
         Me.lblMonthlyAmort2 = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         CType(Me.Picapprove, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picnotapprove, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -209,27 +207,11 @@ Partial Class Loan_Result
         Me.lblMonthlyAmort2.TabIndex = 165
         Me.lblMonthlyAmort2.Text = "Monthly Amort :"
         '
-        'Panel1
-        '
-        Me.Panel1.Location = New System.Drawing.Point(383, 99)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(209, 143)
-        Me.Panel1.TabIndex = 166
-        '
-        'FlowLayoutPanel1
-        '
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(559, 296)
-        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(200, 100)
-        Me.FlowLayoutPanel1.TabIndex = 167
-        '
         'Loan_Result
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1920, 1045)
-        Me.Controls.Add(Me.FlowLayoutPanel1)
-        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.lblMonthlyAmort2)
         Me.Controls.Add(Me.lblTotalPayable2)
         Me.Controls.Add(Me.lblinterest2)
@@ -273,6 +255,4 @@ Partial Class Loan_Result
     Friend WithEvents lblinterest2 As Label
     Friend WithEvents lblTotalPayable2 As Label
     Friend WithEvents lblMonthlyAmort2 As Label
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
 End Class
