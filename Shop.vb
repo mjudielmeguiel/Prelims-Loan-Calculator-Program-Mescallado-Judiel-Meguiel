@@ -7,9 +7,9 @@
     'Apple iPhone 17 Pro 256GB Orange
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles btnProduct5.Click
         Dim LA As New Loan_Application_form
-        LA.txtProductType.Text = "Apple iPhone 17 Pro 256GB Orange"
+        LA.txtProductType.Text = lblProductname.Text
         LA.txtLoanType.Text = "Gadget Loan"
-        LA.txtLoanAmount.Text = "79,990"
+        LA.txtLoanAmount.Text = btnProduct1.Text
         LA.Show()
 
     End Sub
@@ -149,9 +149,9 @@
     'Nubia NEO 3 4G 8GB+128GB Shadow Black
     Private Sub Button19_Click(sender As Object, e As EventArgs) Handles btnProduct1.Click
         Dim LA As New Loan_Application_form
-        LA.txtProductType.Text = "Nubia NEO 3 4G 8GB+128GB Shadow Black"
+        LA.txtProductType.Text = lblProductname.Text
         LA.txtLoanType.Text = "Gadget Loan"
-        LA.txtLoanAmount.Text = "15,495"
+        LA.txtLoanAmount.Text = btnProduct1.Text
         LA.Show()
     End Sub
     'Infinix Hot 60 Pro
@@ -179,16 +179,5 @@
         LA.txtLoanType.Text = "Gadget Loan"
         LA.txtLoanAmount.Text = "12,999"
         LA.Show()
-    End Sub
-
-    Private Sub btnUpdate1_Click(sender As Object, e As EventArgs) Handles btnUpdate1.Click
-
-        Dim Update As New Productupdate()
-
-        Update.picUpdate.Image = picproduct1.Image
-        Update.txtupdateproductname.Text = lblProductname.Text
-        Update.txtupdateprice.Text = btnProduct1.Text
-
-        Update.Show()
     End Sub
 End Class

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Shop
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Shop
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim USERNAMELabel As System.Windows.Forms.Label
         Dim Label5 As System.Windows.Forms.Label
@@ -92,18 +92,17 @@ Partial Class Shop
         Me.PictureBox16 = New System.Windows.Forms.PictureBox()
         Me.btnProduct4 = New System.Windows.Forms.Button()
         Me.panelProduct4 = New System.Windows.Forms.Panel()
-        Me.PictureBox17 = New System.Windows.Forms.PictureBox()
+        Me.picproduct4 = New System.Windows.Forms.PictureBox()
         Me.btnProduct3 = New System.Windows.Forms.Button()
         Me.btnProduct2 = New System.Windows.Forms.Button()
         Me.btnProduct1 = New System.Windows.Forms.Button()
         Me.panelProduct3 = New System.Windows.Forms.Panel()
-        Me.PictureBox18 = New System.Windows.Forms.PictureBox()
+        Me.picproduct3 = New System.Windows.Forms.PictureBox()
         Me.panelProduct2 = New System.Windows.Forms.Panel()
-        Me.PictureBox19 = New System.Windows.Forms.PictureBox()
+        Me.picproduct2 = New System.Windows.Forms.PictureBox()
         Me.panelProduct1 = New System.Windows.Forms.Panel()
-        Me.picproduct1 = New System.Windows.Forms.PictureBox()
-        Me.btnUpdate1 = New System.Windows.Forms.Button()
         Me.lblProductname = New System.Windows.Forms.Label()
+        Me.picproduct1 = New System.Windows.Forms.PictureBox()
         USERNAMELabel = New System.Windows.Forms.Label()
         Label5 = New System.Windows.Forms.Label()
         Label8 = New System.Windows.Forms.Label()
@@ -156,11 +155,11 @@ Partial Class Shop
         Me.panelProduct17.SuspendLayout()
         CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panelProduct4.SuspendLayout()
-        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picproduct4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panelProduct3.SuspendLayout()
-        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picproduct3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panelProduct2.SuspendLayout()
-        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picproduct2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panelProduct1.SuspendLayout()
         CType(Me.picproduct1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -952,21 +951,21 @@ Partial Class Shop
         '
         Me.panelProduct4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.panelProduct4.Controls.Add(Label49)
-        Me.panelProduct4.Controls.Add(Me.PictureBox17)
+        Me.panelProduct4.Controls.Add(Me.picproduct4)
         Me.panelProduct4.Location = New System.Drawing.Point(1406, 12)
         Me.panelProduct4.Name = "panelProduct4"
         Me.panelProduct4.Size = New System.Drawing.Size(428, 146)
         Me.panelProduct4.TabIndex = 353
         '
-        'PictureBox17
+        'picproduct4
         '
-        Me.PictureBox17.Image = CType(resources.GetObject("PictureBox17.Image"), System.Drawing.Image)
-        Me.PictureBox17.Location = New System.Drawing.Point(18, 15)
-        Me.PictureBox17.Name = "PictureBox17"
-        Me.PictureBox17.Size = New System.Drawing.Size(109, 113)
-        Me.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox17.TabIndex = 139
-        Me.PictureBox17.TabStop = False
+        Me.picproduct4.Image = CType(resources.GetObject("picproduct4.Image"), System.Drawing.Image)
+        Me.picproduct4.Location = New System.Drawing.Point(18, 15)
+        Me.picproduct4.Name = "picproduct4"
+        Me.picproduct4.Size = New System.Drawing.Size(109, 113)
+        Me.picproduct4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picproduct4.TabIndex = 139
+        Me.picproduct4.TabStop = False
         '
         'btnProduct3
         '
@@ -1020,77 +1019,51 @@ Partial Class Shop
         '
         Me.panelProduct3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.panelProduct3.Controls.Add(Label52)
-        Me.panelProduct3.Controls.Add(Me.PictureBox18)
+        Me.panelProduct3.Controls.Add(Me.picproduct3)
         Me.panelProduct3.Location = New System.Drawing.Point(972, 12)
         Me.panelProduct3.Name = "panelProduct3"
         Me.panelProduct3.Size = New System.Drawing.Size(428, 146)
         Me.panelProduct3.TabIndex = 349
         '
-        'PictureBox18
+        'picproduct3
         '
-        Me.PictureBox18.Image = CType(resources.GetObject("PictureBox18.Image"), System.Drawing.Image)
-        Me.PictureBox18.Location = New System.Drawing.Point(18, 15)
-        Me.PictureBox18.Name = "PictureBox18"
-        Me.PictureBox18.Size = New System.Drawing.Size(109, 113)
-        Me.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox18.TabIndex = 139
-        Me.PictureBox18.TabStop = False
+        Me.picproduct3.Image = CType(resources.GetObject("picproduct3.Image"), System.Drawing.Image)
+        Me.picproduct3.Location = New System.Drawing.Point(18, 15)
+        Me.picproduct3.Name = "picproduct3"
+        Me.picproduct3.Size = New System.Drawing.Size(109, 113)
+        Me.picproduct3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picproduct3.TabIndex = 139
+        Me.picproduct3.TabStop = False
         '
         'panelProduct2
         '
         Me.panelProduct2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.panelProduct2.Controls.Add(Label55)
-        Me.panelProduct2.Controls.Add(Me.PictureBox19)
+        Me.panelProduct2.Controls.Add(Me.picproduct2)
         Me.panelProduct2.Location = New System.Drawing.Point(538, 12)
         Me.panelProduct2.Name = "panelProduct2"
         Me.panelProduct2.Size = New System.Drawing.Size(428, 146)
         Me.panelProduct2.TabIndex = 348
         '
-        'PictureBox19
+        'picproduct2
         '
-        Me.PictureBox19.Image = CType(resources.GetObject("PictureBox19.Image"), System.Drawing.Image)
-        Me.PictureBox19.Location = New System.Drawing.Point(18, 15)
-        Me.PictureBox19.Name = "PictureBox19"
-        Me.PictureBox19.Size = New System.Drawing.Size(109, 113)
-        Me.PictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox19.TabIndex = 139
-        Me.PictureBox19.TabStop = False
+        Me.picproduct2.Image = CType(resources.GetObject("picproduct2.Image"), System.Drawing.Image)
+        Me.picproduct2.Location = New System.Drawing.Point(18, 15)
+        Me.picproduct2.Name = "picproduct2"
+        Me.picproduct2.Size = New System.Drawing.Size(109, 113)
+        Me.picproduct2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picproduct2.TabIndex = 139
+        Me.picproduct2.TabStop = False
         '
         'panelProduct1
         '
         Me.panelProduct1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.panelProduct1.Controls.Add(Me.lblProductname)
-        Me.panelProduct1.Controls.Add(Me.btnUpdate1)
         Me.panelProduct1.Controls.Add(Me.picproduct1)
         Me.panelProduct1.Location = New System.Drawing.Point(104, 12)
         Me.panelProduct1.Name = "panelProduct1"
         Me.panelProduct1.Size = New System.Drawing.Size(428, 146)
         Me.panelProduct1.TabIndex = 347
-        '
-        'picproduct1
-        '
-        Me.picproduct1.Image = CType(resources.GetObject("picproduct1.Image"), System.Drawing.Image)
-        Me.picproduct1.Location = New System.Drawing.Point(18, 15)
-        Me.picproduct1.Name = "picproduct1"
-        Me.picproduct1.Size = New System.Drawing.Size(109, 113)
-        Me.picproduct1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.picproduct1.TabIndex = 139
-        Me.picproduct1.TabStop = False
-        '
-        'btnUpdate1
-        '
-        Me.btnUpdate1.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.btnUpdate1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.btnUpdate1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnUpdate1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUpdate1.ForeColor = System.Drawing.Color.Maroon
-        Me.btnUpdate1.Location = New System.Drawing.Point(263, 91)
-        Me.btnUpdate1.Name = "btnUpdate1"
-        Me.btnUpdate1.Size = New System.Drawing.Size(152, 37)
-        Me.btnUpdate1.TabIndex = 142
-        Me.btnUpdate1.Text = "Edit"
-        Me.btnUpdate1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnUpdate1.UseVisualStyleBackColor = False
         '
         'lblProductname
         '
@@ -1101,6 +1074,16 @@ Partial Class Shop
         Me.lblProductname.Size = New System.Drawing.Size(233, 21)
         Me.lblProductname.TabIndex = 143
         Me.lblProductname.Text = "Nubia NEO 3 4G 8GB+128GB"
+        '
+        'picproduct1
+        '
+        Me.picproduct1.Image = CType(resources.GetObject("picproduct1.Image"), System.Drawing.Image)
+        Me.picproduct1.Location = New System.Drawing.Point(18, 15)
+        Me.picproduct1.Name = "picproduct1"
+        Me.picproduct1.Size = New System.Drawing.Size(109, 113)
+        Me.picproduct1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picproduct1.TabIndex = 139
+        Me.picproduct1.TabStop = False
         '
         'Shop
         '
@@ -1202,13 +1185,13 @@ Partial Class Shop
         CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
         Me.panelProduct4.ResumeLayout(False)
         Me.panelProduct4.PerformLayout()
-        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picproduct4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.panelProduct3.ResumeLayout(False)
         Me.panelProduct3.PerformLayout()
-        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picproduct3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.panelProduct2.ResumeLayout(False)
         Me.panelProduct2.PerformLayout()
-        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picproduct2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.panelProduct1.ResumeLayout(False)
         Me.panelProduct1.PerformLayout()
         CType(Me.picproduct1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1266,16 +1249,15 @@ Partial Class Shop
     Friend WithEvents PictureBox16 As PictureBox
     Friend WithEvents btnProduct4 As Button
     Friend WithEvents panelProduct4 As Panel
-    Friend WithEvents PictureBox17 As PictureBox
+    Friend WithEvents picproduct4 As PictureBox
     Friend WithEvents btnProduct3 As Button
     Friend WithEvents btnProduct2 As Button
     Friend WithEvents btnProduct1 As Button
     Friend WithEvents panelProduct3 As Panel
-    Friend WithEvents PictureBox18 As PictureBox
+    Friend WithEvents picproduct3 As PictureBox
     Friend WithEvents panelProduct2 As Panel
-    Friend WithEvents PictureBox19 As PictureBox
+    Friend WithEvents picproduct2 As PictureBox
     Friend WithEvents panelProduct1 As Panel
     Friend WithEvents picproduct1 As PictureBox
-    Friend WithEvents btnUpdate1 As Button
     Friend WithEvents lblProductname As Label
 End Class
