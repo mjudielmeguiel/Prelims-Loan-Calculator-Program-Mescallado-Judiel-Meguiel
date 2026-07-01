@@ -13,7 +13,7 @@
 
         ' Check Admin credentials
         If txtUsername.Text.Trim() = "admin" And txtPassword.Text.Trim() = "admin123" Then
-            MessageBox.Show("Login Successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            MessageBox.Show("Welcome Back! : " & txtUsername.Text, " - Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
             Me.Hide()
             Home.Show()
@@ -21,8 +21,8 @@
             attemptCount = 3
 
             ' Check Student credentials
-        ElseIf txtUsername.Text.Trim() = "student" And txtPassword.Text.Trim() = "student123" Then
-            MessageBox.Show("Login Successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        ElseIf txtUsername.Text.Trim() = "user" And txtPassword.Text.Trim() = "user123" Then
+            MessageBox.Show("Login Successful!" & txtUsername.Text, " - Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
             Me.Hide()
             Home.Show()

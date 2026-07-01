@@ -40,7 +40,7 @@ Partial Class Home
         Me.LogOutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
-        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
+        Me.tssettings = New System.Windows.Forms.ToolStripButton()
         Me.Datetime = New System.Windows.Forms.Timer(Me.components)
         Me.ToolStrip2.SuspendLayout()
         Me.stsmenu.SuspendLayout()
@@ -180,21 +180,21 @@ Partial Class Home
         Me.ToolStrip1.BackColor = System.Drawing.SystemColors.ControlLight
         Me.ToolStrip1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton3, Me.ToolStripButton4, Me.ToolStripButton2})
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton3, Me.ToolStripButton4, Me.tssettings})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 66)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(1920, 28)
         Me.ToolStrip1.TabIndex = 145
         Me.ToolStrip1.Text = "ToolStrip1"
         '
-        'ToolStripButton2
+        'tssettings
         '
-        Me.ToolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.ToolStripButton2.Image = CType(resources.GetObject("ToolStripButton2.Image"), System.Drawing.Image)
-        Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton2.Name = "ToolStripButton2"
-        Me.ToolStripButton2.Size = New System.Drawing.Size(70, 25)
-        Me.ToolStripButton2.Text = "Settings"
+        Me.tssettings.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
+        Me.tssettings.Image = CType(resources.GetObject("tssettings.Image"), System.Drawing.Image)
+        Me.tssettings.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.tssettings.Name = "tssettings"
+        Me.tssettings.Size = New System.Drawing.Size(70, 25)
+        Me.tssettings.Text = "Settings"
         '
         'Datetime
         '
@@ -212,6 +212,7 @@ Partial Class Home
         Me.Controls.Add(Me.stsmenu)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Home"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Home"
@@ -242,6 +243,6 @@ Partial Class Home
     Friend WithEvents LogOutToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolStripButton4 As ToolStripButton
     Friend WithEvents ToolStrip1 As ToolStrip
-    Friend WithEvents ToolStripButton2 As ToolStripButton
+    Friend WithEvents tssettings As ToolStripButton
     Friend WithEvents Datetime As Timer
 End Class

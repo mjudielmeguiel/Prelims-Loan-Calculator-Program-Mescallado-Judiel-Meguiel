@@ -149,6 +149,7 @@ Partial Class About_us
         Me.Controls.Add(Label4)
         Me.Controls.Add(Label2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "About_us"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "About_us"

@@ -47,7 +47,7 @@ Partial Class Loan_Result
         '
         Me.lblName.AutoSize = True
         Me.lblName.Font = New System.Drawing.Font("Microsoft YaHei UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblName.Location = New System.Drawing.Point(927, 370)
+        Me.lblName.Location = New System.Drawing.Point(897, 367)
         Me.lblName.Name = "lblName"
         Me.lblName.Size = New System.Drawing.Size(28, 26)
         Me.lblName.TabIndex = 0
@@ -98,7 +98,7 @@ Partial Class Loan_Result
         '
         Me.lblInterest.AutoSize = True
         Me.lblInterest.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblInterest.Location = New System.Drawing.Point(249, 780)
+        Me.lblInterest.Location = New System.Drawing.Point(254, 779)
         Me.lblInterest.Name = "lblInterest"
         Me.lblInterest.Size = New System.Drawing.Size(24, 21)
         Me.lblInterest.TabIndex = 3
@@ -108,11 +108,11 @@ Partial Class Loan_Result
         '
         Me.lblRemarks.AutoSize = True
         Me.lblRemarks.Font = New System.Drawing.Font("Microsoft YaHei UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblRemarks.Location = New System.Drawing.Point(722, 637)
+        Me.lblRemarks.Location = New System.Drawing.Point(692, 641)
         Me.lblRemarks.Name = "lblRemarks"
-        Me.lblRemarks.Size = New System.Drawing.Size(90, 25)
+        Me.lblRemarks.Size = New System.Drawing.Size(28, 25)
         Me.lblRemarks.TabIndex = 7
-        Me.lblRemarks.Text = "Remarks"
+        Me.lblRemarks.Text = "--"
         '
         'lblStatus
         '
@@ -121,9 +121,9 @@ Partial Class Loan_Result
         Me.lblStatus.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.lblStatus.Location = New System.Drawing.Point(867, 252)
         Me.lblStatus.Name = "lblStatus"
-        Me.lblStatus.Size = New System.Drawing.Size(90, 31)
+        Me.lblStatus.Size = New System.Drawing.Size(34, 31)
         Me.lblStatus.TabIndex = 6
-        Me.lblStatus.Text = "Status"
+        Me.lblStatus.Text = "--"
         Me.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Picapprove
@@ -150,7 +150,7 @@ Partial Class Loan_Result
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(722, 370)
+        Me.Label1.Location = New System.Drawing.Point(692, 367)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(199, 26)
         Me.Label1.TabIndex = 160
@@ -181,7 +181,7 @@ Partial Class Loan_Result
         '
         Me.lblinterest2.AutoSize = True
         Me.lblinterest2.Font = New System.Drawing.Font("Microsoft YaHei UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblinterest2.Location = New System.Drawing.Point(147, 777)
+        Me.lblinterest2.Location = New System.Drawing.Point(152, 776)
         Me.lblinterest2.Name = "lblinterest2"
         Me.lblinterest2.Size = New System.Drawing.Size(96, 26)
         Me.lblinterest2.TabIndex = 163
@@ -229,6 +229,7 @@ Partial Class Loan_Result
         Me.Controls.Add(Me.lblName)
         Me.Controls.Add(Me.picnotapprove)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Loan_Result"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Loan_Result"

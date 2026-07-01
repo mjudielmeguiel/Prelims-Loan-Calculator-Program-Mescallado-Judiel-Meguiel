@@ -43,11 +43,6 @@
     Private Sub ToolStripButton4_Click(sender As Object, e As EventArgs) Handles ToolStripButton4.Click
         MsgBox("Comming Soon.")
     End Sub
-
-    Private Sub ToolStripButton2_Click(sender As Object, e As EventArgs) Handles ToolStripButton2.Click
-        MsgBox("Comming Soon.")
-    End Sub
-
     Private Sub LogOutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LogOutToolStripMenuItem.Click
         If MessageBox.Show("Are you sure you want to Logout?", "Confirm Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
             Application.Exit()
@@ -61,5 +56,9 @@
     End Sub
     Private Sub Datetime_Tick_1(sender As Object, e As EventArgs) Handles Datetime.Tick
         ststimer.Text = "Date and Time : " & Now.ToString("MMMM dd, yyyy hh:mm:ss tt")
+    End Sub
+
+    Private Sub tssettings_Click(sender As Object, e As EventArgs) Handles tssettings.Click
+        MsgBox("Comming Soon.")
     End Sub
 End Class

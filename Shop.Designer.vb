@@ -38,11 +38,10 @@ Partial Class Shop
         Dim Label40 As System.Windows.Forms.Label
         Dim Label43 As System.Windows.Forms.Label
         Dim Label46 As System.Windows.Forms.Label
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Shop))
         Dim Label49 As System.Windows.Forms.Label
         Dim Label52 As System.Windows.Forms.Label
         Dim Label55 As System.Windows.Forms.Label
-        Dim Label58 As System.Windows.Forms.Label
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Shop))
         Me.panelProduct5 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.panelProduct6 = New System.Windows.Forms.Panel()
@@ -102,7 +101,9 @@ Partial Class Shop
         Me.panelProduct2 = New System.Windows.Forms.Panel()
         Me.PictureBox19 = New System.Windows.Forms.PictureBox()
         Me.panelProduct1 = New System.Windows.Forms.Panel()
-        Me.PictureBox20 = New System.Windows.Forms.PictureBox()
+        Me.picproduct1 = New System.Windows.Forms.PictureBox()
+        Me.btnUpdate1 = New System.Windows.Forms.Button()
+        Me.lblProductname = New System.Windows.Forms.Label()
         USERNAMELabel = New System.Windows.Forms.Label()
         Label5 = New System.Windows.Forms.Label()
         Label8 = New System.Windows.Forms.Label()
@@ -122,7 +123,6 @@ Partial Class Shop
         Label49 = New System.Windows.Forms.Label()
         Label52 = New System.Windows.Forms.Label()
         Label55 = New System.Windows.Forms.Label()
-        Label58 = New System.Windows.Forms.Label()
         Me.panelProduct5.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panelProduct6.SuspendLayout()
@@ -162,7 +162,7 @@ Partial Class Shop
         Me.panelProduct2.SuspendLayout()
         CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panelProduct1.SuspendLayout()
-        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picproduct1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'USERNAMELabel
@@ -325,6 +325,36 @@ Partial Class Shop
         Label46.Size = New System.Drawing.Size(234, 21)
         Label46.TabIndex = 141
         Label46.Text = "Kaisen 6- Seater Dining Table"
+        '
+        'Label49
+        '
+        Label49.AutoSize = True
+        Label49.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Label49.Location = New System.Drawing.Point(133, 15)
+        Label49.Name = "Label49"
+        Label49.Size = New System.Drawing.Size(150, 21)
+        Label49.TabIndex = 141
+        Label49.Text = "Redmi Note 14 5G"
+        '
+        'Label52
+        '
+        Label52.AutoSize = True
+        Label52.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Label52.Location = New System.Drawing.Point(133, 15)
+        Label52.Name = "Label52"
+        Label52.Size = New System.Drawing.Size(190, 42)
+        Label52.TabIndex = 141
+        Label52.Text = "Realme 16 Pro 5G" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "8gb/12gb 256gb/512gb"
+        '
+        'Label55
+        '
+        Label55.AutoSize = True
+        Label55.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Label55.Location = New System.Drawing.Point(133, 15)
+        Label55.Name = "Label55"
+        Label55.Size = New System.Drawing.Size(144, 21)
+        Label55.TabIndex = 141
+        Label55.Text = "Infinix Hot 60 Pro"
         '
         'panelProduct5
         '
@@ -928,16 +958,6 @@ Partial Class Shop
         Me.panelProduct4.Size = New System.Drawing.Size(428, 146)
         Me.panelProduct4.TabIndex = 353
         '
-        'Label49
-        '
-        Label49.AutoSize = True
-        Label49.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Label49.Location = New System.Drawing.Point(133, 15)
-        Label49.Name = "Label49"
-        Label49.Size = New System.Drawing.Size(150, 21)
-        Label49.TabIndex = 141
-        Label49.Text = "Redmi Note 14 5G"
-        '
         'PictureBox17
         '
         Me.PictureBox17.Image = CType(resources.GetObject("PictureBox17.Image"), System.Drawing.Image)
@@ -1006,16 +1026,6 @@ Partial Class Shop
         Me.panelProduct3.Size = New System.Drawing.Size(428, 146)
         Me.panelProduct3.TabIndex = 349
         '
-        'Label52
-        '
-        Label52.AutoSize = True
-        Label52.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Label52.Location = New System.Drawing.Point(133, 15)
-        Label52.Name = "Label52"
-        Label52.Size = New System.Drawing.Size(190, 42)
-        Label52.TabIndex = 141
-        Label52.Text = "Realme 16 Pro 5G" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "8gb/12gb 256gb/512gb"
-        '
         'PictureBox18
         '
         Me.PictureBox18.Image = CType(resources.GetObject("PictureBox18.Image"), System.Drawing.Image)
@@ -1036,16 +1046,6 @@ Partial Class Shop
         Me.panelProduct2.Size = New System.Drawing.Size(428, 146)
         Me.panelProduct2.TabIndex = 348
         '
-        'Label55
-        '
-        Label55.AutoSize = True
-        Label55.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Label55.Location = New System.Drawing.Point(133, 15)
-        Label55.Name = "Label55"
-        Label55.Size = New System.Drawing.Size(144, 21)
-        Label55.TabIndex = 141
-        Label55.Text = "Infinix Hot 60 Pro"
-        '
         'PictureBox19
         '
         Me.PictureBox19.Image = CType(resources.GetObject("PictureBox19.Image"), System.Drawing.Image)
@@ -1059,32 +1059,48 @@ Partial Class Shop
         'panelProduct1
         '
         Me.panelProduct1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.panelProduct1.Controls.Add(Label58)
-        Me.panelProduct1.Controls.Add(Me.PictureBox20)
+        Me.panelProduct1.Controls.Add(Me.lblProductname)
+        Me.panelProduct1.Controls.Add(Me.btnUpdate1)
+        Me.panelProduct1.Controls.Add(Me.picproduct1)
         Me.panelProduct1.Location = New System.Drawing.Point(104, 12)
         Me.panelProduct1.Name = "panelProduct1"
         Me.panelProduct1.Size = New System.Drawing.Size(428, 146)
         Me.panelProduct1.TabIndex = 347
         '
-        'Label58
+        'picproduct1
         '
-        Label58.AutoSize = True
-        Label58.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Label58.Location = New System.Drawing.Point(133, 15)
-        Label58.Name = "Label58"
-        Label58.Size = New System.Drawing.Size(233, 42)
-        Label58.TabIndex = 141
-        Label58.Text = "Nubia NEO 3 4G 8GB+128GB" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Shadow Black"
+        Me.picproduct1.Image = CType(resources.GetObject("picproduct1.Image"), System.Drawing.Image)
+        Me.picproduct1.Location = New System.Drawing.Point(18, 15)
+        Me.picproduct1.Name = "picproduct1"
+        Me.picproduct1.Size = New System.Drawing.Size(109, 113)
+        Me.picproduct1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picproduct1.TabIndex = 139
+        Me.picproduct1.TabStop = False
         '
-        'PictureBox20
+        'btnUpdate1
         '
-        Me.PictureBox20.Image = CType(resources.GetObject("PictureBox20.Image"), System.Drawing.Image)
-        Me.PictureBox20.Location = New System.Drawing.Point(18, 15)
-        Me.PictureBox20.Name = "PictureBox20"
-        Me.PictureBox20.Size = New System.Drawing.Size(109, 113)
-        Me.PictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox20.TabIndex = 139
-        Me.PictureBox20.TabStop = False
+        Me.btnUpdate1.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.btnUpdate1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btnUpdate1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnUpdate1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUpdate1.ForeColor = System.Drawing.Color.Maroon
+        Me.btnUpdate1.Location = New System.Drawing.Point(263, 91)
+        Me.btnUpdate1.Name = "btnUpdate1"
+        Me.btnUpdate1.Size = New System.Drawing.Size(152, 37)
+        Me.btnUpdate1.TabIndex = 142
+        Me.btnUpdate1.Text = "Edit"
+        Me.btnUpdate1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnUpdate1.UseVisualStyleBackColor = False
+        '
+        'lblProductname
+        '
+        Me.lblProductname.AutoSize = True
+        Me.lblProductname.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblProductname.Location = New System.Drawing.Point(134, 15)
+        Me.lblProductname.Name = "lblProductname"
+        Me.lblProductname.Size = New System.Drawing.Size(233, 21)
+        Me.lblProductname.TabIndex = 143
+        Me.lblProductname.Text = "Nubia NEO 3 4G 8GB+128GB"
         '
         'Shop
         '
@@ -1132,6 +1148,7 @@ Partial Class Shop
         Me.Controls.Add(Me.panelProduct6)
         Me.Controls.Add(Me.panelProduct5)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Shop"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Shop"
@@ -1194,7 +1211,7 @@ Partial Class Shop
         CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
         Me.panelProduct1.ResumeLayout(False)
         Me.panelProduct1.PerformLayout()
-        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picproduct1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1258,5 +1275,7 @@ Partial Class Shop
     Friend WithEvents panelProduct2 As Panel
     Friend WithEvents PictureBox19 As PictureBox
     Friend WithEvents panelProduct1 As Panel
-    Friend WithEvents PictureBox20 As PictureBox
+    Friend WithEvents picproduct1 As PictureBox
+    Friend WithEvents btnUpdate1 As Button
+    Friend WithEvents lblProductname As Label
 End Class

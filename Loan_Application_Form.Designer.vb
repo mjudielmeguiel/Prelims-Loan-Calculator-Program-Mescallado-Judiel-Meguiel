@@ -416,6 +416,7 @@ Partial Class Loan_Application_form
         Me.Controls.Add(Me.txtCustomerName)
         Me.Font = New System.Drawing.Font("Microsoft YaHei UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "Loan_Application_form"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

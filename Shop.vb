@@ -180,4 +180,15 @@
         LA.txtLoanAmount.Text = "12,999"
         LA.Show()
     End Sub
+
+    Private Sub btnUpdate1_Click(sender As Object, e As EventArgs) Handles btnUpdate1.Click
+
+        Dim Update As New Productupdate()
+
+        Update.picUpdate.Image = picproduct1.Image
+        Update.txtupdateproductname.Text = lblProductname.Text
+        Update.txtupdateprice.Text = btnProduct1.Text
+
+        Update.Show()
+    End Sub
 End Class
